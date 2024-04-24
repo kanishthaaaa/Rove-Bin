@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1057954899261",
+    "project_id": "rove-28209",
+    "storage_bucket": "rove-28209.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057954899261:android:d480089d7f24acc50d9154",
+        "android_client_info": {
+          "package_name": "com.example.rove"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRyG317eIR-E270C3LG5D8fUKdUKeIJQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

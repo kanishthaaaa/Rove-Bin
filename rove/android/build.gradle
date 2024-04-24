@@ -1,0 +1,34 @@
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.buildDir = '../build'
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(':app')
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
+
+// classpath 'com.android.tools.build:gradle:3.0.0';
+// dependencies {
+//     // Other dependencies
+//     implementation 'androidx.multidex:multidex:2.0.1'
+//     // Other dependencies
+// }
+
+// android {
+//     defaultConfig {
+//         // Other configuration options
+//         multiDexEnabled true
+//         // Other configuration options
+//     }
+//     // Other configuration options
+// }
